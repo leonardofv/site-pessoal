@@ -8,6 +8,8 @@
     width: 200px;
     height: 270px;
     border-radius: 150px;
+    box-shadow: 10px 10px 20px black;
+
 }
 /*h1 no main*/
 main h1 {
@@ -26,20 +28,33 @@ main h1 {
     font-size: 19px;
     font-weight: lighter;
 }
-
+/*Nova posição para os links*/
 .links {
     position: absolute;
-    top: 510px;
+    top: 460px;
     right: 430px;
 }
 
-.links a {
-    text-decoration: none;
+.links li {
+    display: inline-block; /*Colocar a lista em linha*/
     padding: 25px;
     margin: 5px;
     font-weight: bold;
     font-size: 22px;
-    color: midnightblue;
-    background-color: orangered;
+    background-color: rgb(0, 255, 85);
     border-radius: 20px;
+    box-shadow: 5px 5px 5px green;
+    transition: 0.5s;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links li:hover {
+    transition: 0.5s;
+    font-size: 25px;
+    background-color: darkgreen;
+    
 }
