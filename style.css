@@ -22,7 +22,7 @@
     height: 270px;
     border-radius: 150px;
 }
-
+/*h1 no main*/
 main h1 {
     position: absolute;
     top: 270px;
@@ -30,7 +30,7 @@ main h1 {
     font-weight: bold;
     font-size: 50px;
 }
-
+/*p na class texto*/
 .text p {
     width: 450px;
     position: absolute;
@@ -38,4 +38,21 @@ main h1 {
     right: 410px;
     font-size: 19px;
     font-weight: lighter;
+}
+
+.links2 {
+    position: absolute;
+    top: 560px;
+    right: 430px;
+}
+
+.links2 a {
+    text-decoration: none;
+    padding: 25px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    color: midnightblue;
+    background-color: orangered;
+    border-radius: 20px;
 }
