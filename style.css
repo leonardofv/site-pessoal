@@ -1,22 +1,9 @@
 /*Posição dos links*/
-.links {
-    position: absolute;
-    top: 30px;
-    right: 40px;
-}
-
-/*Decoração dos links*/
-.links a {
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 0 10px;
-    text-decoration: none;
-}
 
 /*Foto da página*/
 .foto {
     position: absolute;
-    top: 300px;
+    top: 270px;
     right: 900px;
     width: 200px;
     height: 270px;
@@ -25,7 +12,7 @@
 /*h1 no main*/
 main h1 {
     position: absolute;
-    top: 270px;
+    top: 220px;
     right: 770px;
     font-weight: bold;
     font-size: 50px;
@@ -34,19 +21,19 @@ main h1 {
 .text p {
     width: 450px;
     position: absolute;
-    top: 370px;
+    top: 300px;
     right: 410px;
     font-size: 19px;
     font-weight: lighter;
 }
 
-.links2 {
+.links {
     position: absolute;
-    top: 560px;
+    top: 510px;
     right: 430px;
 }
 
-.links2 a {
+.links a {
     text-decoration: none;
     padding: 25px;
     margin: 5px;
